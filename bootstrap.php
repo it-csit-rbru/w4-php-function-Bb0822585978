@@ -9,7 +9,7 @@ function create_link ($u,$t){
     return "<a href=\"$u\">$t</a>";
 }
 function create_table($t){
-    echo '<table class="table table-success">';
+    echo '<table class="table table-striped table-bordered table-success">';
     echo '<thead class="thead-dark">';
     echo '<td>URL</td><td>NAME</td>';
     
